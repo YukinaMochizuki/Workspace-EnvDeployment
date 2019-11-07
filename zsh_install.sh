@@ -13,4 +13,3 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 # powerlevel9k
 git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
 
-zsh -c "sh -c "$(curl -fsSL https://gist.github.com/YukinaMochizuki/3c43af4d49da2b34c76ffdb9242f7a66/raw/73562f867ecb1d3a0dce42b7391e529959bf2d50/workspace_install_script.sh )""
