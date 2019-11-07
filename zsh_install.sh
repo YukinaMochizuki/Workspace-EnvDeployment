@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # zsh
+sudo apt update
 sudo apt install -y zsh
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
