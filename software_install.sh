@@ -7,7 +7,7 @@ sudo apt update
 sudo apt full-upgrade -y
 
 # tools
-sudo apt install -y tmux htop vim ranger wget git unzip curl cmake
+sudo apt install -y tmux htop vim ranger wget git unzip curl cmake python-dev python3-dev
 
 # docker
 curl -fsSL https://get.docker.com -o get-docker.sh
