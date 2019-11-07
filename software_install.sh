@@ -35,7 +35,7 @@ nvm install node # "node" is an alias for the latest version
 
 # pip and pipenv
 sudo apt install -y python3-pip
-sudo wget https://gist.githubusercontent.com/YukinaMochizuki/3c43af4d49da2b34c76ffdb9242f7a66/raw/c99e76936794639fc1ac9bae5e9d3643e4fa9f57/pip3 -P /usr/bin
+sudo cp ./fix-patch/pip3 /usr/bin
 pip3 install pipenv
 
 # Test
