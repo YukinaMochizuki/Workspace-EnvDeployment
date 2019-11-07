@@ -13,3 +13,5 @@ cd ~/dotfile && ./install
 
 zsh -c "cd /tmp/Workspace-EnvDeployment && ./vim_plugin_install.sh"
 
+# Setting time zone
+sudo dpkg-reconfigure tzdata
