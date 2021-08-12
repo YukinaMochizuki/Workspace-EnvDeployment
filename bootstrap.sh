@@ -9,7 +9,7 @@ rm -rf ~/.zshrc
 
 # clone dotfile repo
 git clone https://github.com/YukinaMochizuki/dotfile.git ~/dotfile
-cd ~/dotfile && ./install
+cd ~/dotfile && ./install service
 
 zsh -c "cd /tmp/Workspace-EnvDeployment && ./vim_plugin_install.sh"
 
